@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd $(dirname $0)
+cd ~/travelroad_spring
 
 ./mvnw package  # el empaquetado ya incluye la compilación
 
