@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ~/travelroad_spring
-./run.sh
+systemctl --user restart travelroad_spring.service
 git add .
 git commit -m "deploy"
 git push
